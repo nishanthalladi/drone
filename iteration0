@@ -10,6 +10,15 @@ Components:
  1x JST Male to XT60 Female adapter (~2g)
  1x Cardboard frame/mount (~20g estimated)
 
+Cost Breakdown:
+ Motor (FEICHAO 2204 2300KV, from 4-pack):            $7.50
+ ESC (DYS 20A 2-4S with 5V BEC):                     $15.99
+ Propellers (uxcell RC 5040 5×4 inch 3-blade):        $9.49
+ Battery (OVONIC 3S LiPo 35C 500mAh 11.1V):          $25.99
+ Power Adapter (LINSYRC XT60 with JST male):          $6.99
+ -----------------------------------------------------------------
+ Total Cost:                                         $65.96
+
 Experiment 1: Calculation (Design Validation)
 
 Method: Calculate thrust-to-weight ratio using motor specs and component weights
