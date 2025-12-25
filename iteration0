@@ -1,0 +1,46 @@
+Can ITERATION0 lift itself off of a surface?
+
+ITERATION0 Design specs:
+
+Components:
+ 1x 2204 2300KV brushless motor (~26g, 440g thrust @ 3S)
+ 1x 5040 5in propeller (~3g)
+ 1x DYS 12A 2-4S ESC (~9g, with XT30 connector)
+ 1x 500mAh 3S 11.1V LiPo battery (~40g)
+ 1x JST Male to XT60 Female adapter (~2g)
+ 1x Cardboard frame/mount (~20g estimated)
+
+Experiment 1: Calculation (Design Validation)
+
+Method: Calculate thrust-to-weight ratio using motor specs and component weights
+
+Weight Budget:
+ Motor:           26g
+ Propeller:        3g
+ ESC:              9g
+ Battery:         40g
+ Adapter:          2g
+ Frame/mount:     20g (estimated)
+ Wiring/misc:      5g (estimated)
+ -------------------------
+ Total weight:   ~105g
+
+Thrust Calculation:
+ Motor spec: 2204 2300KV with 5" prop @ 3S = ~400-440g thrust at full throttle
+ Using conservative estimate: 400g thrust
+
+Thrust-to-Weight Ratio:
+ Ratio = 400g / 105g = 3.81:1
+
+Result: YES - Should lift off easily
+ - Ratio > 2:1 is considered good for multirotors
+ - Ratio > 3:1 is excellent
+ - 3.81:1 means significant lifting capability with throttle headroom
+
+Expected Performance:
+ - Theoretical hover throttle: ~26% (105g / 400g)
+ - With inefficiencies: ~35-40% throttle to hover
+ - Should lift off surface at ~50-60% throttle
+ - Full throttle would produce strong upward force
+
+Next Step: Physical test to validate calculation
