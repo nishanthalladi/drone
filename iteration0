@@ -1,6 +1,6 @@
-Can ITERATION0 lift itself off of a surface?
+Can the drone lift itself off of a surface?
 
-ITERATION0 Design specs:
+Drone Design specs:
 
 Components:
  1x 2204 2300KV brushless motor (~26g, 440g thrust @ 3S)
